@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Programs",
+  "contentBody" : {
+    "activeViewId" : "Programs",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-programs",
+    "urlPrefix" : "programs"
+  },
+  "urlName" : "programs"
+}

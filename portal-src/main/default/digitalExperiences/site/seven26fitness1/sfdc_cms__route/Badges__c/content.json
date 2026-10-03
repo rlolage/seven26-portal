@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Badges",
+  "contentBody" : {
+    "activeViewId" : "Badges",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-badges",
+    "urlPrefix" : "badges"
+  },
+  "urlName" : "badges"
+}

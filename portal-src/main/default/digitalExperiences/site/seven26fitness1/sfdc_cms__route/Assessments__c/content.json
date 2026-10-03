@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Assessments",
+  "contentBody" : {
+    "activeViewId" : "Assessments",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-assessments",
+    "urlPrefix" : "assessments"
+  },
+  "urlName" : "assessments"
+}

@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Body Composition",
+  "contentBody" : {
+    "activeViewId" : "Body_Composition",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-body-composition",
+    "urlPrefix" : "body-composition"
+  },
+  "urlName" : "body-composition"
+}

@@ -1,0 +1,5 @@
+{
+  "apiName" : "Progress",
+  "type" : "sfdc_cms__view",
+  "path" : "views"
+}

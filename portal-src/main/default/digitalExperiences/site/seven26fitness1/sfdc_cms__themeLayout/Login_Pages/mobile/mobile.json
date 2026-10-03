@@ -1,0 +1,20 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Login Pages",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "spaceBetweenSlots" : "8px"
+        },
+        "id" : "cd2ae180-35f1-4d41-a73a-1eacde0e7a53"
+      }, {
+        "attributes" : {
+          "logoWidth" : "100"
+        },
+        "id" : "fcf403f3-dfee-4cdc-aa1a-0b5690e53be2"
+      } ]
+    }
+  },
+  "urlName" : "login-pages"
+}

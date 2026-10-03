@@ -1,0 +1,89 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Forgot Password",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"22b307b6-cc7a-4d0b-9bd0-fa8e02e9472b\",\"columns\":[{\"UUID\":\"504f701e-5c36-475b-9b78-b83337505ac6\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/resource/Seven26PortalLogo\",\"altText\":\"Seven26 Fitness\",\"contentKey\":\"\",\"contentType\":null}}",
+                "imageInfoMobile" : "",
+                "logoWidth" : 250
+              },
+              "definition" : "dxp_content_layout:siteLogo",
+              "id" : "5802e5ae-a1c4-46d3-87d3-a937fcd29d0c",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "cancelButtonLabel" : "Cancel",
+                "checkEmailUrl" : "./CheckPasswordResetEmail",
+                "dxpStyle" : { },
+                "instructionsLabel" : "To reset your password, enter your username. We'll send a reset-password link to the email address associated with your account.",
+                "submitButtonLabel" : "Reset",
+                "titleLabel" : "Forgot your password?",
+                "usernameLabel" : "Username"
+              },
+              "definition" : "community_login:forgotPassword",
+              "id" : "8a95d425-fb39-4952-a54f-a607c7e58484",
+              "type" : "component"
+            } ],
+            "id" : "504f701e-5c36-475b-9b78-b83337505ac6",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "22b307b6-cc7a-4d0b-9bd0-fa8e02e9472b",
+          "scopedBrandingSetId" : "MyPalette",
+          "type" : "component"
+        } ],
+        "id" : "3adb19f4-8bd7-4250-9183-7f6424931d16",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Forgot Password",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "40fa4702-4eac-4189-9476-58b5d9bbf4c4",
+          "type" : "component"
+        } ],
+        "id" : "2595f584-87dc-4e72-8ecf-8d76e0b8f8e4",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "3062c37f-a26b-495a-add3-61958fc22483",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "zYrbz8u8OBZs7XwmB0zAk1j2EhbaRx",
+    "viewType" : "forgot-password"
+  },
+  "urlName" : "forgot-password"
+}

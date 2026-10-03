@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Progress",
+  "contentBody" : {
+    "activeViewId" : "Progress",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-progress",
+    "urlPrefix" : "progress"
+  },
+  "urlName" : "progress"
+}
