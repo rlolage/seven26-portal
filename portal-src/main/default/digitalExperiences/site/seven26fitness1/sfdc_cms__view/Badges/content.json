@@ -20,6 +20,12 @@
             "sectionVerticalAlign" : "flex-start"
           },
           "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:clientProgressBadges",
+              "id" : "f908e122-f0ab-409e-879f-952b530a6128",
+              "type" : "component"
+            } ],
             "id" : "02398d27-82a0-4906-ac9d-3a0440aea219",
             "name" : "col1",
             "title" : "Column 1",

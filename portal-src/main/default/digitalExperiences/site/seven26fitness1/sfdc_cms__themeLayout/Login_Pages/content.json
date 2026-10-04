@@ -1,242 +1,212 @@
 {
-  "type": "sfdc_cms__themeLayout",
-  "title": "Login Pages",
-  "contentBody": {
-    "component": {
-      "attributes": {},
-      "children": [
-        {
-          "children": [
-            {
-              "attributes": {
-                "backgroundImageConfig": "",
-                "backgroundImageOverlay": "rgba(0,0,0,0)",
-                "componentSpacerSize": "",
-                "dxpStyle": {},
-                "layoutDirectionDesktop": "row",
-                "layoutDirectionMobile": "column",
-                "layoutDirectionTablet": "column",
-                "maxContentWidth": "",
-                "sectionColumnGutterWidth": "",
-                "sectionConfig": "{\"UUID\":\"c0114c4d-6ce0-4511-a78c-83318fbb07d7\",\"columns\":[{\"UUID\":\"3d32fd09-d408-44fc-b31d-b7c26fe18860\",\"columnName\":\"Column 1\",\"columnKey\":\"headerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
-                "sectionMinHeight": "",
-                "sectionVerticalAlign": "flex-start"
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Login Pages",
+  "contentBody" : {
+    "component" : {
+      "attributes" : { },
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"c0114c4d-6ce0-4511-a78c-83318fbb07d7\",\"columns\":[{\"UUID\":\"3d32fd09-d408-44fc-b31d-b7c26fe18860\",\"columnName\":\"Column 1\",\"columnKey\":\"headerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "headerLayout" : "LogoLeft",
+                "slotOneWidth" : "",
+                "slotThreeWidth" : "",
+                "slotTwoWidth" : "",
+                "spaceBetweenSlots" : "16px"
               },
-              "children": [
-                {
-                  "children": [
-                    {
-                      "attributes": {
-                        "dxpStyle": {},
-                        "headerLayout": "LogoLeft",
-                        "slotOneWidth": "",
-                        "slotThreeWidth": "",
-                        "slotTwoWidth": "",
-                        "spaceBetweenSlots": "16px"
-                      },
-                      "children": [
-                        {
-                          "children": [
-                            {
-                              "attributes": {
-                                "alignment": "left",
-                                "dxpStyle": {},
-                                "imageInfo": "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"Seven26 Fitness\",\"contentKey\":\"\",\"contentType\":null}}",
-                                "imageInfoMobile": "",
-                                "logoWidth": 250
-                              },
-                              "definition": "dxp_content_layout:siteLogo",
-                              "id": "fcf403f3-dfee-4cdc-aa1a-0b5690e53be2",
-                              "type": "component"
-                            }
-                          ],
-                          "id": "d68505e0-063a-4c98-aea6-9f47c14eb491",
-                          "name": "siteLogo",
-                          "title": "Add component",
-                          "type": "region"
-                        },
-                        {
-                          "children": [
-                            {
-                              "attributes": {
-                                "dxpStyle": {
-                                  "padding": {
-                                    "bottom": "5px",
-                                    "left": "5px",
-                                    "right": "5px",
-                                    "top": "5px"
-                                  }
-                                }
-                              },
-                              "children": [
-                                {
-                                  "children": [
-                                    {
-                                      "attributes": {
-                                        "activeLineWeight": "3px",
-                                        "backgroundColor": "rgba(255, 255, 255, 0)",
-                                        "dropdownAccordionIconSize": "xx-small",
-                                        "dropdownActiveLineWeight": "5px",
-                                        "dropdownBackgroundActiveColor": "rgba(0, 0, 0, 0)",
-                                        "dropdownBackgroundColor": "",
-                                        "dropdownBackgroundHoverColor": "",
-                                        "dropdownBottomBorderRadius": "5px",
-                                        "dropdownFontSizeOverride": "",
-                                        "dropdownFontWeightOverride": "300",
-                                        "dropdownItemPadding": "{\"top\":\"10px\",\"right\":\"10px\",\"bottom\":\"10px\",\"left\":\"10px\"}",
-                                        "dropdownLineHeightOverride": "",
-                                        "dropdownMenuPadding": "{\"top\":\"0px\",\"right\":\"0px\",\"bottom\":\"0px\",\"left\":\"0px\"}",
-                                        "dropdownOverrideTextStyle": true,
-                                        "dropdownShowDividerLines": false,
-                                        "dropdownTextDecorationOverride": "",
-                                        "dropdownTextStyle": "body-regular",
-                                        "dropdownTopBorderRadius": "5px",
-                                        "dxpStyle": {},
-                                        "fontSizeOverride": "",
-                                        "fontWeightOverride": "",
-                                        "iconSize": "xx-small",
-                                        "itemBackgroundActiveColor": "rgba(255, 255, 255, 0)",
-                                        "itemBackgroundHoverColor": "rgba(255, 255, 255, 0)",
-                                        "lineHeightOverride": "",
-                                        "menuHorizontalAlignment": "left",
-                                        "overrideTextStyle": false,
-                                        "showHomeLink": true,
-                                        "showParentMenuIcon": true,
-                                        "spaceBetweenMenuItems": "30px",
-                                        "textDecorationOverride": "",
-                                        "textStyle": "body-regular"
-                                      },
-                                      "definition": "community_navigation:customizableNavigationBarContainer",
-                                      "id": "6c968e43-7060-46b2-9fd7-06c4fc34195b",
-                                      "type": "component"
-                                    }
-                                  ],
-                                  "id": "fef0c0f2-2699-44b2-aa25-94ebab99eabd",
-                                  "name": "desktop",
-                                  "title": "Desktop View",
-                                  "type": "region"
-                                },
-                                {
-                                  "children": [
-                                    {
-                                      "attributes": {
-                                        "burgerIconHorizontalAlignment": "left",
-                                        "dxpStyle": {},
-                                        "modalAccordionIconSize": "xx-small",
-                                        "modalActiveBackgroundColor": "rgba(255, 255, 255, 0)",
-                                        "modalActiveLineWeight": "5px",
-                                        "modalFontSizeOverride": "",
-                                        "modalFontWeightOverride": "",
-                                        "modalItemPadding": "{\"top\":\"10px\",\"right\":\"10px\",\"bottom\":\"10px\",\"left\":\"15px\"}",
-                                        "modalLineHeightOverride": "",
-                                        "modalMenuPadding": "{\"top\":\"0px\",\"right\":\"0px\",\"bottom\":\"0px\",\"left\":\"0px\"}",
-                                        "modalOverrideTextStyle": false,
-                                        "modalShowDividerLines": true,
-                                        "modalSubmenuFontSizeOverride": "",
-                                        "modalSubmenuFontWeightOverride": "300",
-                                        "modalSubmenuLineHeightOverride": "",
-                                        "modalSubmenuOverrideTextStyle": true,
-                                        "modalSubmenuTextDecorationOverride": "",
-                                        "modalSubmenuTextStyle": "body-regular",
-                                        "modalTextDecorationOverride": "",
-                                        "modalTextStyle": "body-regular",
-                                        "showHomeLink": true
-                                      },
-                                      "definition": "community_navigation:customizableNavigationHamburgerMenuContainer",
-                                      "id": "d17d1db7-dcb1-4792-8382-157a9fb6cf1f",
-                                      "type": "component"
-                                    }
-                                  ],
-                                  "id": "6e04a3ae-b475-48c7-bdd9-00c8bb26ba2d",
-                                  "name": "mobile",
-                                  "title": "Mobile View",
-                                  "type": "region"
-                                }
-                              ],
-                              "definition": "community_navigation:customizableNavigationMenu",
-                              "id": "545b50cf-cbcd-42f0-80e8-8e4103e9d082",
-                              "type": "component"
-                            }
-                          ],
-                          "id": "fa8e2194-3f41-4965-bc3e-31b2d6f10148",
-                          "name": "navigation",
-                          "title": "Add component",
-                          "type": "region"
-                        },
-                        {
-                          "children": [],
-                          "id": "63f54325-8a1d-4db4-89c2-14713d8ee6e9",
-                          "name": "actions",
-                          "title": "Add component",
-                          "type": "region"
-                        }
-                      ],
-                      "definition": "community_builder:customizableHeader",
-                      "id": "cd2ae180-35f1-4d41-a73a-1eacde0e7a53",
-                      "type": "component"
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "left",
+                    "dxpStyle" : { },
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"Seven26 Fitness\",\"contentKey\":\"\",\"contentType\":null}}",
+                    "imageInfoMobile" : "",
+                    "logoWidth" : 250
+                  },
+                  "definition" : "dxp_content_layout:siteLogo",
+                  "id" : "fcf403f3-dfee-4cdc-aa1a-0b5690e53be2",
+                  "type" : "component"
+                } ],
+                "id" : "d68505e0-063a-4c98-aea6-9f47c14eb491",
+                "name" : "siteLogo",
+                "title" : "Add component",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "5px",
+                        "left" : "5px",
+                        "right" : "5px",
+                        "top" : "5px"
+                      }
                     }
-                  ],
-                  "id": "3d32fd09-d408-44fc-b31d-b7c26fe18860",
-                  "name": "headerSection",
-                  "title": "Theme Header",
-                  "type": "region"
-                }
-              ],
-              "definition": "community_layout:section",
-              "id": "c0114c4d-6ce0-4511-a78c-83318fbb07d7",
-              "type": "component"
-            }
-          ],
-          "id": "2ada225f-4a24-4d5f-8a6f-036375cd67e4",
-          "name": "header",
-          "title": "Theme Header",
-          "type": "region"
-        },
-        {
-          "children": [
-            {
-              "attributes": {
-                "backgroundImageConfig": "",
-                "backgroundImageOverlay": "rgba(0,0,0,0)",
-                "componentSpacerSize": "",
-                "dxpStyle": {},
-                "layoutDirectionDesktop": "row",
-                "layoutDirectionMobile": "column",
-                "layoutDirectionTablet": "column",
-                "maxContentWidth": "",
-                "sectionColumnGutterWidth": "",
-                "sectionConfig": "{\"UUID\":\"d6e5a3c3-ee0e-4ea7-a075-dedc1ec6d217\",\"columns\":[{\"UUID\":\"d4ec5230-8a68-40dc-9b07-4084df943b72\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
-                "sectionMinHeight": "",
-                "sectionVerticalAlign": "flex-start"
-              },
-              "children": [
-                {
-                  "id": "d4ec5230-8a68-40dc-9b07-4084df943b72",
-                  "name": "footerSection",
-                  "title": "Theme Footer",
-                  "type": "region"
-                }
-              ],
-              "definition": "community_layout:section",
-              "id": "d6e5a3c3-ee0e-4ea7-a075-dedc1ec6d217",
-              "type": "component"
-            }
-          ],
-          "id": "1f6b8f2d-7f38-435c-bb4a-bc77f044f688",
-          "name": "footer",
-          "title": "Theme Footer",
-          "type": "region"
-        },
-        {
-          "id": "151c0af8-118b-44d2-a7dd-076cb4822db6",
-          "name": "default",
-          "type": "region"
-        }
-      ],
-      "definition": "community_layout:simpleThemeLayout",
-      "id": "2e0cb4c3-a61d-4764-88dd-5f0c43573a32",
-      "type": "component"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "activeLineWeight" : "3px",
+                        "backgroundColor" : "rgba(255, 255, 255, 0)",
+                        "dropdownAccordionIconSize" : "xx-small",
+                        "dropdownActiveLineWeight" : "5px",
+                        "dropdownBackgroundActiveColor" : "rgba(0, 0, 0, 0)",
+                        "dropdownBackgroundColor" : "",
+                        "dropdownBackgroundHoverColor" : "",
+                        "dropdownBottomBorderRadius" : "5px",
+                        "dropdownFontSizeOverride" : "",
+                        "dropdownFontWeightOverride" : "300",
+                        "dropdownItemPadding" : "{\"top\":\"10px\",\"right\":\"10px\",\"bottom\":\"10px\",\"left\":\"10px\"}",
+                        "dropdownLineHeightOverride" : "",
+                        "dropdownMenuPadding" : "{\"top\":\"0px\",\"right\":\"0px\",\"bottom\":\"0px\",\"left\":\"0px\"}",
+                        "dropdownOverrideTextStyle" : true,
+                        "dropdownShowDividerLines" : false,
+                        "dropdownTextDecorationOverride" : "",
+                        "dropdownTextStyle" : "body-regular",
+                        "dropdownTopBorderRadius" : "5px",
+                        "dxpStyle" : { },
+                        "fontSizeOverride" : "",
+                        "fontWeightOverride" : "",
+                        "iconSize" : "xx-small",
+                        "itemBackgroundActiveColor" : "rgba(255, 255, 255, 0)",
+                        "itemBackgroundHoverColor" : "rgba(255, 255, 255, 0)",
+                        "lineHeightOverride" : "",
+                        "menuHorizontalAlignment" : "left",
+                        "overrideTextStyle" : false,
+                        "showHomeLink" : true,
+                        "showParentMenuIcon" : true,
+                        "spaceBetweenMenuItems" : "30px",
+                        "textDecorationOverride" : "",
+                        "textStyle" : "body-regular"
+                      },
+                      "definition" : "community_navigation:customizableNavigationBarContainer",
+                      "id" : "6c968e43-7060-46b2-9fd7-06c4fc34195b",
+                      "type" : "component"
+                    } ],
+                    "id" : "fef0c0f2-2699-44b2-aa25-94ebab99eabd",
+                    "name" : "desktop",
+                    "title" : "Desktop View",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "burgerIconHorizontalAlignment" : "left",
+                        "dxpStyle" : { },
+                        "modalAccordionIconSize" : "xx-small",
+                        "modalActiveBackgroundColor" : "rgba(255, 255, 255, 0)",
+                        "modalActiveLineWeight" : "5px",
+                        "modalFontSizeOverride" : "",
+                        "modalFontWeightOverride" : "",
+                        "modalItemPadding" : "{\"top\":\"10px\",\"right\":\"10px\",\"bottom\":\"10px\",\"left\":\"15px\"}",
+                        "modalLineHeightOverride" : "",
+                        "modalMenuPadding" : "{\"top\":\"0px\",\"right\":\"0px\",\"bottom\":\"0px\",\"left\":\"0px\"}",
+                        "modalOverrideTextStyle" : false,
+                        "modalShowDividerLines" : true,
+                        "modalSubmenuFontSizeOverride" : "",
+                        "modalSubmenuFontWeightOverride" : "300",
+                        "modalSubmenuLineHeightOverride" : "",
+                        "modalSubmenuOverrideTextStyle" : true,
+                        "modalSubmenuTextDecorationOverride" : "",
+                        "modalSubmenuTextStyle" : "body-regular",
+                        "modalTextDecorationOverride" : "",
+                        "modalTextStyle" : "body-regular",
+                        "showHomeLink" : true
+                      },
+                      "definition" : "community_navigation:customizableNavigationHamburgerMenuContainer",
+                      "id" : "d17d1db7-dcb1-4792-8382-157a9fb6cf1f",
+                      "type" : "component"
+                    } ],
+                    "id" : "6e04a3ae-b475-48c7-bdd9-00c8bb26ba2d",
+                    "name" : "mobile",
+                    "title" : "Mobile View",
+                    "type" : "region"
+                  } ],
+                  "definition" : "community_navigation:customizableNavigationMenu",
+                  "id" : "545b50cf-cbcd-42f0-80e8-8e4103e9d082",
+                  "type" : "component"
+                } ],
+                "id" : "fa8e2194-3f41-4965-bc3e-31b2d6f10148",
+                "name" : "navigation",
+                "title" : "Add component",
+                "type" : "region"
+              }, {
+                "id" : "63f54325-8a1d-4db4-89c2-14713d8ee6e9",
+                "name" : "actions",
+                "title" : "Add component",
+                "type" : "region"
+              } ],
+              "definition" : "community_builder:customizableHeader",
+              "id" : "cd2ae180-35f1-4d41-a73a-1eacde0e7a53",
+              "type" : "component"
+            } ],
+            "id" : "3d32fd09-d408-44fc-b31d-b7c26fe18860",
+            "name" : "headerSection",
+            "title" : "Theme Header",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "c0114c4d-6ce0-4511-a78c-83318fbb07d7",
+          "type" : "component"
+        } ],
+        "id" : "2ada225f-4a24-4d5f-8a6f-036375cd67e4",
+        "name" : "header",
+        "title" : "Theme Header",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"d6e5a3c3-ee0e-4ea7-a075-dedc1ec6d217\",\"columns\":[{\"UUID\":\"d4ec5230-8a68-40dc-9b07-4084df943b72\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "d4ec5230-8a68-40dc-9b07-4084df943b72",
+            "name" : "footerSection",
+            "title" : "Theme Footer",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "d6e5a3c3-ee0e-4ea7-a075-dedc1ec6d217",
+          "type" : "component"
+        } ],
+        "id" : "1f6b8f2d-7f38-435c-bb4a-bc77f044f688",
+        "name" : "footer",
+        "title" : "Theme Footer",
+        "type" : "region"
+      }, {
+        "id" : "151c0af8-118b-44d2-a7dd-076cb4822db6",
+        "name" : "default",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:simpleThemeLayout",
+      "id" : "2e0cb4c3-a61d-4764-88dd-5f0c43573a32",
+      "type" : "component"
     }
   },
-  "urlName": "login-pages"
+  "urlName" : "login-pages"
 }

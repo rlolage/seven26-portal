@@ -20,6 +20,12 @@
             "sectionVerticalAlign" : "flex-start"
           },
           "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:bodyCompositionAssessment",
+              "id" : "8f0cb330-5ba2-4c76-858a-5c3af0c6b041",
+              "type" : "component"
+            } ],
             "id" : "e80864aa-bc59-49a6-8616-9382054ed9b2",
             "name" : "col1",
             "title" : "Column 1",

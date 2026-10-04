@@ -20,6 +20,12 @@
             "sectionVerticalAlign" : "flex-start"
           },
           "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:clientProgress",
+              "id" : "ef21b6fd-a1ba-4786-9dcb-99c25e904fe7",
+              "type" : "component"
+            } ],
             "id" : "97837f86-8217-4765-bfb9-4349a9bbf28f",
             "name" : "col1",
             "title" : "Column 1",

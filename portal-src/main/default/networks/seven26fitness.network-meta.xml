@@ -1,9 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Network xmlns="http://soap.sforce.com/2006/04/metadata">
     <allowInternalUserLogin>false</allowInternalUserLogin>
     <allowMembersToFlag>false</allowMembersToFlag>
     <changePasswordTemplate>unfiled$public/Seven26PortalChangePassword</changePasswordTemplate>
-    <communityRoles />
+    <communityRoles/>
     <disablePvtPagesForPwdResetInLWR>false</disablePvtPagesForPwdResetInLWR>
     <disableReputationRecordConversations>true</disableReputationRecordConversations>
     <emailSenderAddress>info@seven26fitness.com</emailSenderAddress>
@@ -33,6 +33,8 @@
     <enableUpDownVote>false</enableUpDownVote>
     <forgotPasswordTemplate>unfiled$public/Seven26PortalForgotPassword</forgotPasswordTemplate>
     <gatherCustomerSentimentData>false</gatherCustomerSentimentData>
+    <headlessForgotPasswordTemplate>unfiled$public/CommunityHeadlessForgotPasswordTemplate</headlessForgotPasswordTemplate>
+    <headlessRegistrationTemplate>unfiled$public/CommunityHeadlessRegistrationTemplate</headlessRegistrationTemplate>
     <networkAuthApiSettings>
         <doesForgotPasswordRequireAuth>false</doesForgotPasswordRequireAuth>
         <doesPasswordLoginRequireAuth>true</doesPasswordLoginRequireAuth>
@@ -53,8 +55,8 @@
         <recaptchaScoreThreshold>0.0</recaptchaScoreThreshold>
     </networkAuthApiSettings>
     <networkMemberGroups>
-        <permissionSet>seven26fitness__Fitness_Client_Access</permissionSet>
-        <profile>Admin</profile>
+        <permissionSet>Fitness_Client_Access</permissionSet>
+        <profile>admin</profile>
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
@@ -69,7 +71,7 @@
     <sendWelcomeEmail>false</sendWelcomeEmail>
     <site>seven26fitness</site>
     <siteArchiveStatus>NotArchived</siteArchiveStatus>
-    <status>UnderConstruction</status>
+    <status>Live</status>
     <tabs>
         <defaultTab>home</defaultTab>
         <standardTab>home</standardTab>

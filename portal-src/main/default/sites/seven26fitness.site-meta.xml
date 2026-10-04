@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CustomSite xmlns="http://soap.sforce.com/2006/04/metadata">
     <active>true</active>
     <allowGuestPaymentsApi>false</allowGuestPaymentsApi>
@@ -8,23 +8,23 @@
     <allowStandardLookups>false</allowStandardLookups>
     <allowStandardPortalPages>true</allowStandardPortalPages>
     <allowStandardSearch>false</allowStandardSearch>
-    <authorizationRequiredPage>seven26fitness__CommunitiesLogin</authorizationRequiredPage>
-    <bandwidthExceededPage>seven26fitness__BandwidthExceeded</bandwidthExceededPage>
+    <authorizationRequiredPage>CommunitiesLogin</authorizationRequiredPage>
+    <bandwidthExceededPage>BandwidthExceeded</bandwidthExceededPage>
     <browserXssProtection>true</browserXssProtection>
     <cachePublicVisualforcePagesInProxyServers>true</cachePublicVisualforcePagesInProxyServers>
     <clickjackProtectionLevel>SameOriginOnly</clickjackProtectionLevel>
     <contentSniffingProtection>true</contentSniffingProtection>
     <enableAuraRequests>true</enableAuraRequests>
-    <fileNotFoundPage>seven26fitness__FileNotFound</fileNotFoundPage>
-    <genericErrorPage>seven26fitness__Exception</genericErrorPage>
-    <inMaintenancePage>seven26fitness__InMaintenance</inMaintenancePage>
-    <indexPage>seven26fitness__CommunitiesLanding</indexPage>
+    <fileNotFoundPage>FileNotFound</fileNotFoundPage>
+    <genericErrorPage>Exception</genericErrorPage>
+    <inMaintenancePage>InMaintenance</inMaintenancePage>
+    <indexPage>CommunitiesLanding</indexPage>
     <masterLabel>seven26fitness</masterLabel>
     <redirectToCustomDomain>false</redirectToCustomDomain>
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
-    <selfRegPage>seven26fitness__CommunitiesSelfReg</selfRegPage>
-    <siteAdmin>dev3@seven26fitness.com</siteAdmin>
-    <siteGuestRecordDefaultOwner>dev3@seven26fitness.com</siteGuestRecordDefaultOwner>
+    <selfRegPage>CommunitiesSelfReg</selfRegPage>
+    <siteAdmin>dev4@seven26fitness.com</siteAdmin>
+    <siteGuestRecordDefaultOwner>dev4@seven26fitness.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
     <urlPathPrefix>seven26fitnessvforcesite</urlPathPrefix>
 </CustomSite>

@@ -20,6 +20,12 @@
             "sectionVerticalAlign" : "flex-start"
           },
           "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:assessments",
+              "id" : "3248bf58-d209-4c62-ac2a-a6b283a47f38",
+              "type" : "component"
+            } ],
             "id" : "1065312b-f728-44b1-8d7d-6a716dae8271",
             "name" : "col1",
             "title" : "Column 1",
